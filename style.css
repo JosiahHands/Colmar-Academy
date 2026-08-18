@@ -11,7 +11,7 @@ header {
     align-items: center;
 }
 
-header .left {
+header .left1 {
     width: 100%;
     padding: 24px;
     display: flex;
@@ -21,7 +21,7 @@ header .left {
     opacity: 0.5;
 }
 
-header .right {
+header .right1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ header .right {
 }
 .section1 img {
     height: auto;
-    width: 50%;
+    width: 60%;
     padding: 24px;
 }
 
@@ -52,16 +52,141 @@ header .right {
     color: white;
 }
 
+.section2 {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.left2 {
+    display: block;
+    width: 60%;
+    padding: 24px;
+}
+.left2 img {
+    height: auto;
+    width: 100%;
+}
 
 
 
+.right2 {
+    width: 40%;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 16px;
+}
+
+#box1 {
+    margin: 24px 0 0 0;
+}
+
+#box3 {
+    background-color: lightgray;
+}
+
+.box img {
+    display: flex;
+    height: auto;
+    width: 35%;
+}
+
+.details {
+    padding: 0 16px;
+}
+
+.btxt {
+    color: rgb(0, 162, 255);
+}
+
+.section3 {
+    background-color: lightgray;
+}
+
+.text3 {
+    text-align: center;
+    width: 100%;
+    padding-top: 32px;
+}
+
+.learn {
+    display: flex;
+    align-items: center;
+    min-height: 125px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 16px 56px;
+}
 
 
 
+.learn img {
+    width: 300px;
+    height: auto;
+}
+
+.lbox {
+    background-color: white;
+    margin: 16px;
+    width: 300px;
+    height: 330px;
+}
+
+.lbox p {
+    padding: 0 16px;
+}
 
 
+.left2 video {
+    height: 400px;
+    width: 100%;
+}
+
+#box1 {
+    background-color: lightgray;
+}
+
+#box2 {
+    border: none;
+}
+
+#section4 {
+    border-bottom: 1px solid lightgray;
+}
+
+footer {
+    display: inline-flex
+}
+
+#ft-r {
+    display: flex;
+}
+
+#ft-r {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+footer #ft-l {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+}
 
 
-
-
-
+footer #ft-r {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+}
