@@ -1,12 +1,14 @@
 body {
     box-sizing: border-box;
     font-family: sans-serif;
+    width: 100%;
 }
 @media screen and (min-width: 480px) {
     .mobile {
         display: none;    
     }
 }
+
 /* intro */
 
 header {
@@ -88,18 +90,25 @@ header .right1 {
         display: none;
     } 
     #section1 {
-        text-align: center;
-        
+        background-color: lightgray;
+        padding-bottom: 32px;
+        border-bottom: 1px solid lightgray;
     }
     #section1 img {
     height: auto;
-    width: 90%;
-    padding: 24px;
-    margin: auto;
+    width: 100%;
+    margin: 0 0 16px;
+    
+    }
+    #start-here {
+        margin: 24px 16px 16px;
+    }
+
+    .text {
+    padding: 0 16px;
+    align-content: normal;
 }
-#start-here {
-    margin: 0 20px;
-}
+
 }
 
 /* section 2 */
@@ -118,8 +127,6 @@ header .right1 {
     height: auto;
     width: 100%;
 }
-
-
 
 
 .box {
@@ -148,6 +155,20 @@ header .right1 {
 
 .btxt {
     color: rgb(0, 162, 255);
+}
+
+@media screen and (max-width: 480px) {
+    .section2 {
+        display: none;
+    }
+    #section2 {
+        display: block;
+        padding: 16px;
+        border-bottom: 1px solid lightgray;
+    }
+    #section2 img {
+        width: 100%;
+    }
 }
 
 /* section 3 */
@@ -190,6 +211,25 @@ header .right1 {
     padding: 0 16px;
 }
 
+@media screen and (max-width: 480px) {
+    .section3 {
+        display: none;
+    }
+
+    #section3 {
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 24px;
+    }
+
+    #section3 h1 {
+        text-align: center;
+    }
+    #section3 h3 {
+        background-color: lightgray;
+        padding: 16px 16px 24px;
+        margin: 8px 16px;
+    }
+}
 
 /* section 4 */
 
@@ -222,6 +262,16 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+@media screen and (max-width: 480px) {
+    #m-section4 {
+        margin: 32px 0 24px;
+        text-align: center;
+    }
+    .section4 video {
+        width: 100%;
+        height: auto;
+    }
+}
 
 /* footer */
 
@@ -243,4 +293,20 @@ footer #ft-r {
     display: flex;
     justify-content: space-between;
     padding-right: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        font-size: 0.5em;
+        display: flex;
+    }
+    footer #ft-l {
+    width: 100%;
+    padding: 16px;
+}
+
+
+footer #ft-r {
+    display: none;
+}
 }
