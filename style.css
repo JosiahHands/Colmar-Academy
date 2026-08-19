@@ -6,21 +6,6 @@ body {
     width: 98%;
 }
 
-@media screen and (min-width: 1920px) {
-    body {
-    font-size: 1.5rem;
-    }
-    #desk-ic {
-        height: 96px;
-    }
-    header {
-        height: 96px;
-    }
-    .lbox {
-    height: 430px;
-}
-}
-
 @media screen and (max-width: 840px) {
     header, .section1, .section2 {
     font-size: 0.8rem;
@@ -307,8 +292,8 @@ header .right1 {
         margin: 32px 0 24px;
         text-align: center;
     }
-    .section4 video {
-        height: auto;
+    #m-section4 video {
+        height: 400px;
         width: 100%;
     }
 }
