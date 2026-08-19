@@ -289,26 +289,14 @@ header .right1 {
     border-bottom: 1px solid lightgray;
 }
 
-footer {
-    display: inline-flex
-}
-
-#ft-r {
-    display: flex;
-}
-
-#ft-r {
-    display: flex;
-    justify-content: flex-end;
-}
 @media screen and (max-width: 480px) {
     #m-section4 {
         margin: 32px 0 24px;
         text-align: center;
     }
     .section4 video {
+        height: 400px;
         width: 100%;
-        height: auto;
     }
 }
 
