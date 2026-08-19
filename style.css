@@ -41,8 +41,7 @@ body {
 }
 @media screen and (max-width: 480px) {
     body {
-        width: 98%;
-        overflow: hidden;    
+        width: 98%; 
     }
 }
 
