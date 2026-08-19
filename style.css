@@ -13,6 +13,9 @@ body {
     #desk-ic {
         height: 96px;
     }
+    header {
+        height: 96px;
+    }
 }
 
 @media screen and (max-width: 840px) {
