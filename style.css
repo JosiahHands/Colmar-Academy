@@ -2,7 +2,46 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
     width: 100%;
+    font-size: 1rem;
 }
+
+@media screen and (min-width: 1920px) {
+    body {
+    font-size: 1.5rem;
+    }
+    #desk-ic {
+        height: 96px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    header, .section1, .section2 {
+    font-size: 0.8rem;
+    }
+    #desk-ic {
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    header, .section1, .section2 {
+    font-size: 0.65rem;
+    }
+    #desk-ic {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    header, .section1, .section2 {
+    font-size: 0.5rem;
+    }
+    #desk-ic {
+        height: 32px;
+    }
+}
+
+
 @media screen and (min-width: 480px) {
     .mobile {
         display: none;    
