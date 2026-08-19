@@ -118,7 +118,17 @@ header .right1 {
     display: flex;
     background-color: rgb(80, 80, 80);
     justify-content: center;
+    border: 3px solid rgb(80, 80, 80);
+}
+#start-here a {
     color: white;
+    text-decoration: none;
+}
+#start-here:hover {
+    box-sizing: border-box;
+    border: 3px solid rgb(80, 80, 80);
+    background-color: rgb(177, 177, 177);
+    transition: background-color 400ms ease-out 100ms;
 }
 
 @media screen and (max-width: 480px) {
