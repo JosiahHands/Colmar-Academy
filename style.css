@@ -2,6 +2,12 @@ body {
     box-sizing: border-box;
     font-family: sans-serif;
 }
+@media screen and (min-width: 480px) {
+    .mobile {
+        display: none;    
+    }
+}
+/* intro */
 
 header {
     height: 64px;
@@ -29,6 +35,31 @@ header .right1 {
     border-spacing: auto solid turquoise;
 }
 
+@media screen and (max-width: 480px) {
+    header h2, header h3 {
+        display: none;
+    }
+    header .right1 {
+        width: 0%
+    }
+    .left1 #desk-ic {
+        display: none;
+    }
+    
+    header img {
+        height: 40px;
+    }
+    #icons {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+
+
+/* section 1 */
+
 .section1 {
     display: flex;
     background-color: lightgray;
@@ -52,6 +83,27 @@ header .right1 {
     color: white;
 }
 
+@media screen and (max-width: 480px) {
+    .section1 {
+        display: none;
+    } 
+    #section1 {
+        text-align: center;
+        
+    }
+    #section1 img {
+    height: auto;
+    width: 90%;
+    padding: 24px;
+    margin: auto;
+}
+#start-here {
+    margin: 0 20px;
+}
+}
+
+/* section 2 */
+
 .section2 {
     display: flex;
     margin-bottom: 32px;
@@ -69,13 +121,9 @@ header .right1 {
 
 
 
-.right2 {
-    width: 40%;
-}
 
 .box {
     display: flex;
-    width: 100%;
     border: 1px solid lightgray;
     padding: 16px;
 }
@@ -101,6 +149,8 @@ header .right1 {
 .btxt {
     color: rgb(0, 162, 255);
 }
+
+/* section 3 */
 
 .section3 {
     background-color: lightgray;
@@ -141,6 +191,8 @@ header .right1 {
 }
 
 
+/* section 4 */
+
 .left2 video {
     height: 400px;
     width: 100%;
@@ -170,6 +222,8 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
+/* footer */
 
 footer {
     width: 100%;
